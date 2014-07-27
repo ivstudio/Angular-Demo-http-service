@@ -6,6 +6,7 @@ Angular demo utilizing $http service to read a JSON file, filtering content usin
 
 ## Features
 
-* [HTML5 elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
-* [Twitter Bootstrap](http://getbootstrap.com/css/) CSS Grid system.
 * [Angular Framework](https://angularjs.org/).
+* [Twitter Bootstrap](http://getbootstrap.com/css/) CSS Grid system.
+* [HTML5 elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) CDN incon library.
