@@ -7,5 +7,5 @@ Angular demo utilizing $http service to read a JSON file, filtering content usin
 ## Features
 
 * HTML5 elements.
-* [Twitter Bootstrap](http://getbootstrap.com/) for CSS.
+* [Twitter Bootstrap](http://getbootstrap.com/css/) for CSS.
 * [Angular Framework](https://angularjs.org/).
