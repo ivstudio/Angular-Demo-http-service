@@ -1,0 +1,58 @@
+
+        <section>
+            <div class="container">
+                <div class="row result-cont">
+                    <div class="col-sm-12">
+                        <header>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div>
+                                        <label for="hotel-listing" class="control-label">Filter by:</label>
+                                        <select ng-model="sortorder" name="hotel-listing" class="form-control">
+                                            <option value="guestRating">Guest Rating</option>
+                                            <option value="price">Price</option>
+                                            <option value="airport">Distance from Airport</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8"></div>
+                            </div>
+                        </header>
+
+                        <div class="hotel-ls" ng-repeat="hotel in hotels | orderBy:sortorder">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img class="img-rounded img-responsive" ng-src="{{hotel.smImage}}">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <h2>{{hotel.name}} <i>{{hotel.guestRating}}</i></h2>
+                                    <ul class="list-unstyled desc">
+                                        <li><strong>Distance from airport: {{hotel.airport}}</strong></li>
+                                        <li>{{hotel.location}} | Map</li>
+                                        <li><a ng-href="{{hotel.url}}">Book online</a> or call: {{hotel.phone}}</li>
+                                        <li class="sale">{{hotel.discount}}</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <ul class="list-unstyled price">
+                                        <li><span>{{hotel.price}}</span></li>
+                                        <li><small>{{hotel.priceIncludes}}</small></li>
+                                        <li>
+                                            <a class="btn btn-primary btn-lg" href="#/details/{{hotels.indexOf(hotel)}}">Select Hotel</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 fligth-info">
+                                    <p><i class="fa fa-plane"></i><strong>Flight included in price.</strong> Customize your flight preferences in the next step.</p>
+                                </div>
+                            </div>
+                        </div><!--/.hotel-ls-->
+
+                    </div><!--/.col-sm-12-->
+                </div><!--/.result-cont-->
+            </div>
+        </section>

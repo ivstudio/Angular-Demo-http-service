@@ -1,0 +1,107 @@
+[
+ 				{	
+ 					"name": "Landmark Bangkok",
+ 					"airport" : "13.2",
+ 					"location" : "Sukhumvit",
+ 					"url" : "#",
+ 					"phone" :  "1-800-223-0492",
+ 					"includes" : "Breakfast Buffet",
+ 					"discount" : "Save 25% on this stay!",
+ 					"smImage" : "img/hotels/hotel1.jpg",
+ 					"price" : "$2,410",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "4"
+ 				},
+ 				{	
+ 					"name": "Tower Club at Lebua",
+ 					"airport" : "15.8",
+ 					"location" : "Bangkok Riverside",
+ 					"url" : "#",
+ 					"phone" :  "1-800-152-0852",
+ 					"includes" : "Free Wi-Fi , Breakfast Buffet",
+ 					"discount" : "Early Booking Bonus",
+ 					"smImage" : "img/hotels/hotel2.jpg",
+ 					"price" : "$2,180",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "5"
+ 				},
+ 				{	
+ 					"name": "InterContinental Bangkok",
+ 					"airport" : "14.5",
+ 					"location" : "Siam Square - Ratchaprasong",
+ 					"url" : "#",
+ 					"phone" :  "1-800-244-0492",
+ 					"includes" : "Free Wi-Fi",
+ 					"discount" : "Spring sale! Save 55%",
+ 					"smImage" : "img/hotels/hotel3.jpg",
+ 					"price" : "$12,660",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "2"
+ 				},
+ 				{	
+ 					"name": "The Okura Prestige Bangkok",
+ 					"airport" : "15.2",
+ 					"location" : "Silom - Sathorn",
+ 					"url" : "#",
+ 					"phone" :  "1-800-255-0892",
+ 					"includes" : "Free parking, Free Wi-Fi",
+ 					"discount" : "Stay 1 nights and save",
+ 					"smImage" : "img/hotels/hotel4.jpg",
+ 					"price" : "$3,520",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "3"
+ 				},
+ 				{	
+ 					"name": "Pohseen Hotel",
+ 					"airport" : "10.2",
+ 					"location" : "Sukhumvit",
+ 					"url" : "#",
+ 					"phone" :  "1-800-422-0232",
+ 					"includes" : "Breakfast Buffet",
+ 					"discount" : "Stay 1 night and save",
+ 					"smImage" : "img/hotels/hotel5.jpg",
+ 					"price" : "$2,020",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "5"
+ 				},
+ 				{	
+ 					"name": "Holiday Inn Bangkok Silom",
+ 					"airport" : "15.6",
+ 					"location" : "Silom - Sathorn",
+ 					"url" : "#",
+ 					"phone" :  "1-800-422-0932",
+ 					"includes" : "Breakfast Buffet",
+ 					"discount" : "Flash sale",
+ 					"smImage" : "img/hotels/hotel6.jpg",
+ 					"price" : "$8,900",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "1"
+ 				},
+ 				{	
+ 					"name": "Prince Palace Hotel",
+ 					"airport" : "16.4",
+ 					"location" : "Old Town - Khao San",
+ 					"url" : "#",
+ 					"phone" :  "1-800-432-0842",
+ 					"includes" : "Breakfast Buffet, Free Wi-Fi",
+ 					"discount" : "Sale!",
+ 					"smImage" : "img/hotels/hotel7.jpg",
+ 					"price" : "$3,900",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "2"
+ 				}, 
+ 				{	
+ 					"name": "The Period Pratunam",
+ 					"airport" : "10",
+ 					"location" : "Pratunam",
+ 					"url" : "#",
+ 					"phone" :  "1-800-229-0892",
+ 					"includes" : "Computer Station, Parking, Free Wi-Fi",
+ 					"discount" : "Sale!",
+ 					"smImage" : "img/hotels/hotel8.jpg",
+ 					"price" : "$1,200",
+ 					"priceIncludes" : "flight + hotel, taxes & fees",
+ 					"guestRating" : "1"
+ 				} 
+
+ 			]
