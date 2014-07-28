@@ -34,7 +34,7 @@
  					"includes" : "Free Wi-Fi",
  					"discount" : "Spring sale! Save 55%",
  					"smImage" : "img/hotels/hotel3.jpg",
- 					"price" : "$12,660",
+ 					"price" : "$6,660",
  					"priceIncludes" : "flight + hotel, taxes & fees",
  					"guestRating" : "2"
  				},
@@ -62,7 +62,7 @@
  					"smImage" : "img/hotels/hotel5.jpg",
  					"price" : "$2,020",
  					"priceIncludes" : "flight + hotel, taxes & fees",
- 					"guestRating" : "5"
+ 					"guestRating" : "4"
  				},
  				{	
  					"name": "Holiday Inn Bangkok Silom",

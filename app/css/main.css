@@ -112,13 +112,23 @@ strong {
     color:#036;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Structure
+   ========================================================================== */
+.main {
+    margin: 50px auto;
+}
+
 /* ==========================================================================
    Colors
    ========================================================================== */
 .sale {
     color: #f06601;
 }
-
 
 /* ==========================================================================
    Hotel List
@@ -160,7 +170,7 @@ strong {
     font-size: 26px;
 }
 
-.hotel-ls button {
+.hotel-ls .btn {
     margin-top: 20px;
 }
 
@@ -172,6 +182,38 @@ strong {
 
 .hotel-ls .fligth-info p {
     margin: 15px 0 0;
+}
+
+.rating-1, .rating-2, .rating-3, .rating-4, .rating-5 {
+    background: url(../img/assets/star.png) no-repeat;
+    height: 15px;
+    display: block;
+    margin: 5px 0;
+}
+
+.rating-1 {
+    background-position: -4px 0px;
+    width: 21px;
+}
+
+.rating-2 {
+    background-position: -4px -15px;
+    width: 32px;
+}
+
+.rating-3 {
+    background-position: -4px -30px;
+    width: 44px;
+}
+
+.rating-4 {
+    background-position: -4px -45px;
+    width: 58px;
+}
+
+.rating-5 {
+    background-position: -4px -61px;
+    width: 65px;
 }
 
 @media (max-width: 768px) {
@@ -187,6 +229,10 @@ strong {
         max-width: 360px;
         margin: 15px auto 0;
         text-align: center;
+    }
+
+    .rating-1, .rating-2, .rating-3, .rating-4, .rating-5 {
+        margin: 5px auto;
     }
 
 }

@@ -9,7 +9,7 @@
                                     <div>
                                         <label for="hotel-listing" class="control-label">Filter by:</label>
                                         <select ng-model="sortorder" name="hotel-listing" class="form-control">
-                                            <option value="guestRating">Guest Rating</option>
+                                            <option value="-guestRating">Guest Rating</option>
                                             <option value="price">Price</option>
                                             <option value="airport">Distance from Airport</option>
                                         </select>
@@ -19,14 +19,14 @@
                             </div>
                         </header>
 
-                        <div class="hotel-ls" ng-repeat="hotel in hotels | orderBy:sortorder">
+                        <div class="hotel-ls" ng-repeat="hotel in hotels | orderBy:sortorder ">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <img class="img-rounded img-responsive" ng-src="{{hotel.smImage}}">
                                 </div>
 
                                 <div class="col-sm-6">
-                                    <h2>{{hotel.name}} <i>{{hotel.guestRating}}</i></h2>
+                                    <h2><a ng-href="#/details/{{hotels.indexOf(hotel)}}">{{hotel.name}}</a> <i ng-class="'rating-'+{{hotel.guestRating}}"></i></h2>
                                     <ul class="list-unstyled desc">
                                         <li><strong>Distance from airport: {{hotel.airport}}</strong></li>
                                         <li>{{hotel.location}} | Map</li>

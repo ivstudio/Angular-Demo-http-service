@@ -9,7 +9,7 @@ travelApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider.
 	when('/hotel', {
 		templateUrl: 'partials/hotel.html',
-		controller:'HotelController'
+		controller:'HotelController',
 	}).
 	when('/details/:hotelId', {
 		templateUrl: 'partials/details.html',
