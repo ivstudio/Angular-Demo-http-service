@@ -1,8 +1,9 @@
-# Angular Demo
+# Angular Demos
 
+## DEMO 01
 Angular demo utilizing $http service to read a JSON file, filtering content using directives, setting up deep linking, working with the $routeProvider, setting up partials and a details page.
 
-* [View Demo page](http://www.demo.ivstudio.com/angular-travel-agency/app/index.html)
+* [View Demo 01 page](http://www.demo.ivstudio.com/angular-travel-agency/app/index.html)
 
 ## Features
 
