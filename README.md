@@ -2,7 +2,7 @@
 
 Angular demo utilizing the $http service module to fetch data from a JSON file. Set-up the $routeProvider for deep linking between the feed and the element details. Filter the data feed using custom filters. Used Twitter Bootstrap grid system.
 
-* [VIEW LIVE DEMO](http://www.demo.ivstudio.com/angular-travel-agency/app/index.html)
+* [VIEW LIVE DEMO](http://ignaciovillamar.com/Angular-Demo-http-service/#/hotel)
 
 ## Features
 
